@@ -1,0 +1,10 @@
+{
+    "/posts": {
+      "target": "http://reqres.in/api/users",
+      "secure": true,
+      "pathRewrite": {
+      "^/posts": ""
+    },
+      "changeOrigin": true
+    }
+  }
